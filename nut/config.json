@@ -2,6 +2,12 @@
   "name": "Network UPS Tools",
   "version": "0.1",
   "slug": "nut",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7",
+    "i386"
+  ],  
   "description": "Manage Uninterruptible Power Supplies",
   "startup": "before",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
